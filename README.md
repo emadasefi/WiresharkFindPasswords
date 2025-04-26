@@ -32,6 +32,7 @@ For FTP and Telnet logins, look for login commands (USER, PASS) in the packet de
 
 
 ▚  Wireshark allows us to see passwords and credentials primarily because many legacy protocols transmit information in plaintext. Without encryption (such as HTTPS, SFTP, or SSH), anyone monitoring the network traffic can easily intercept sensitive information like usernames and passwords.
+
 ▚  Using encryption, such as Transport Layer Security (TLS), protects these communications from being visible in tools like Wireshark. Always ensure your applications and websites use encrypted connections to avoid exposing credentials over the network.
 
 
